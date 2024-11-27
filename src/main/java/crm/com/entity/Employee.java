@@ -23,4 +23,5 @@ public class Employee {
     @Column(name = "mobile", nullable = false, unique = true)
     private String mobile;
 
+    private Strig sname;
 }
